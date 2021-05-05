@@ -1,13 +1,32 @@
-# Getting Started with Create React App
+# Search Car from Car Directory
+ This is a frontend application where users can search and select their car from a directory of available cars. When brand and model of the car is provided by the user, the available variants of that particular car and model appears from where user can select the exact specification.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies Used
+- React JS
+- CSS3
+- Jest and React Testing Library
 
-## Available Scripts
+## Demo of the Application
+![Alt text](https://github.com/supriti23/select-your-car/blob/main/src/Assets/Demo.gif "Destop View")
 
-In the project directory, you can run:
+![Alt text](https://github.com/supriti23/select-your-car/blob/main/src/Assets/DemoMobile.gif "Mobile View")
 
+## How the Application works
+##### Select Car Brand
+When the page loads for the fisrt time, you can select the brand of the car from the dropdown of available brands. Start typing the brand name to get suggestions, if the brand exists in the directory.
+##### Select Car Model
+Once the brand of the car is selected, another text box pops up with the dropdown of the available car models related to the brand provided. If the brand is deleted, the text box for entering the model of the car also disappers as it always related to the brand provided. If there are no available models for the brand provided, and error message is displayed.
+##### Search your Car
+Upon selecting a paricular barand and model, a search button appears. When the search button is clicked, a list of available car variants appaears for the particular brand and model provided. You can scroll through all the car variants and select one. 
+##### Select a Car Variant
+Upon selection of the car variant, a modal displaying all the details of the car selected appears on the screen. Select the 'OK' button if you are sure or else, you can close and select another variant.
+
+## System Requirements
+Node.js
+Here is the link to install node.js in your system - https://nodejs.org/en/download/
+## Running the Application
+Open terminal In the project directory, you can run:
 ### `npm start`
-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -23,48 +42,3 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
