@@ -25,13 +25,13 @@ Upon selection of the car variant, a modal displaying all the details of the car
 Node.js
 Here is the link to install node.js in your system - https://nodejs.org/en/download/
 ## Running the Application
-Open terminal In the project directory, you can run:
+Open terminal in the project directory, you can run:
 
 ### Prerequisite
 Server should be running. To run the server, fire the below command.
 ### `node server.js`
 
-### Run the Apllication on a separate terminal
+### Run the Application on a separate terminal
 
 ### `npm install`
 All dependencies are installed to run the application.
