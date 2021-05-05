@@ -72,7 +72,7 @@ const SelectVariant = ({ brand, model, clear }) => {
         <Cards handleSelect={selectHandler} carVariants={carVariants} />
       ) : null}
       {error ? (
-        <Error errorText="No variants found for the above brand and model..." />
+        <Error errorText="No variants found for the above brand and model" />
       ) : null}
     </>
   );

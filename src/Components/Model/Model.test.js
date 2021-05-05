@@ -1,4 +1,4 @@
-import { getModels } from "../../Api";
+
 import { fireEvent, render, screen } from "@testing-library/react";
 import Model from "./Model";
 

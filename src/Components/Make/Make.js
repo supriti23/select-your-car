@@ -5,7 +5,7 @@ import Error from "../Errors/Error";
 
 const Make = ({ handleChange, brand }) => {
   const [makesList, setMakesList] = useState([]);
-  const [error, setError] = useState(false)
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     getMakes(5) 
@@ -18,7 +18,7 @@ const Make = ({ handleChange, brand }) => {
         setError(true);
       });
   }, []);
-
+ console.log(error)
   return (
     <>
       <Dropdown
@@ -28,9 +28,10 @@ const Make = ({ handleChange, brand }) => {
         value={brand}
         handleChange={handleChange}
         elementList={makesList}
+        styles={{visibility: error ? "hidden" : "visible" }} //hide in case Api to get all makes fails
       />
       {error ? (
-        <Error errorText="Site is down. Come back after sometime..." />
+        <Error errorText="Site is down. Please come back after sometime." />
       ) : null}
     </>
   );

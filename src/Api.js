@@ -13,7 +13,6 @@ const getDataFromApi = async (url, maxRetry, make = null, model = null) => {
   return await fetch(url)
     .then((res) => {
       if (!res.ok && maxRetry > 0) {
-        console.log("Got non 200 response. Retry left = " + maxRetry);
         maxRetry--;
         return getDataFromApi(url, maxRetry);
       } else {
