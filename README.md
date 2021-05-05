@@ -31,7 +31,11 @@ Open terminal In the project directory, you can run:
 Server should be running. To run the server, fire the below command.
 ### `node server.js`
 
-### Run the Apllication
+### Run the Apllication on a separate terminal
+
+### `npm install`
+All dependencies are installed to run the application.
+
 ### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
