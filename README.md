@@ -26,12 +26,15 @@ Node.js
 Here is the link to install node.js in your system - https://nodejs.org/en/download/
 ## Running the Application
 Open terminal In the project directory, you can run:
+
+### Prerequisite
+Server should be running. To run the server, fire the below command.
+### `node server.js`
+
 ### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm test`
 
