@@ -1,0 +1,94 @@
+.modal {
+  width: 100%;
+  height: 150%;
+  position: fixed;
+  background-color: rgba(22, 22, 22, 0.5);
+  margin-top: -40%;
+}
+
+.modal-content {
+  background: #e1e1e1;
+  margin: 0 auto;
+  width: 30%;
+  position: relative;
+  z-index: 1;
+  top: 25%;
+  padding: 2%;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-sizing: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font: small;
+  text-align: center;
+  border-radius: 5px;
+  color: rgba(8, 8, 8, 0.5);
+}
+.modal-content > div > h3 {
+  color: rgb(77, 8, 141);
+}
+
+.ok {
+  color: hsl(0, 0%, 67%);
+  font-weight: bold;
+}
+.ok:hover,
+.ok:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ok > button {
+  width: 25%;
+  font-size: 85%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -5%;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.carSpecs {
+  margin: 2% 0;
+}
+.carSpecs > label {
+  color: rgb(77, 8, 141);
+}
+
+@media only screen and (min-width: 281px) and (max-width: 580px) {
+  .modal-content {
+    width: 70%;
+  }
+  .modal {
+    margin-top: -60%;
+  }
+}
+
+@media only screen and (min-width: 581px) and (max-width: 1024px) {
+  .modal-content {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 280px) {
+  .modal {
+    margin-top: -90%;
+  }
+  .modal-content {
+    width: 80%;
+  }
+}

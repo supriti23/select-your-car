@@ -1,0 +1,13 @@
+button:hover {
+  border: 2px solid rgb(77, 8, 141);
+  cursor: pointer;
+  background-color: rgb(213, 209, 214);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 540px) {
+  button {
+    font-size: 100%;
+    width: 45%;
+  }
+}
+

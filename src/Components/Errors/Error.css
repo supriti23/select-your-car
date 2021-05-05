@@ -1,0 +1,17 @@
+.error {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font: small;
+  color: red;
+  text-align: center;
+  width: 45%;
+  margin: 1% 5%;
+  font-size: large;
+}
+
+@media only screen and (max-width: 580px) {
+  .error {
+    width: 70%;
+    text-align: start;
+  }
+}
